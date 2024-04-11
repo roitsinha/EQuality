@@ -20,6 +20,10 @@ import {
   facebook,
   twitter,
   yourlogo,
+  // github,
+  pintu,
+  aditi,
+  rohit,
 } from "../assets";
 
 export const navigation = [
@@ -30,13 +34,13 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Features",
-    url: "#features",
+    title: "Services",
+    url: "#services",
   },
   {
     id: "2",
-    title: "Services",
-    url: "#services",
+    title: "Features",
+    url: "#features",
   },
   {
     id: "3",
@@ -80,7 +84,7 @@ export const brainwaveServicesIcons = [
 export const universityText =
   "Prepare Semesterws Smartly with EQuality and focus on skills rather than Semester";
 
-export const universityContent = [
+export const university = [
   {
     id: "0",
     title: "Premium Notes",
@@ -162,11 +166,122 @@ export const socials = [
     iconUrl: instagram,
     url: "https://www.instagram.com/",
   },
+  // {
+  //   id: "3",
+  //   title: "Github",
+  //   iconUrl: github,
+  //   url: "https://www.instagram.com/",
+  // },
 
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
     url: "https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569849%7Cb%7Cfacebook%7C&placement=&creative=589460569849&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-592856129%26loc_physical_ms%3D9153244%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=CjwKCAjwtqmwBhBVEiwAL-WAYfaeEm73nMQLYonGHfTOnC4w5uIDfcNfuXzB0ey8Cj880LrL5DN2vxoCE3oQAvD_BwE",
+  },
+];
+// constants/index.js
+export const universityContent = [
+  {
+    id: 1,
+    title: "MAKAUT",
+    text: "Maulana Abul Kalam Azad University of Technology",
+  },
+  {
+    id: 2,
+    title: "CBSE",
+    text: "Central Board of Secondary Education",
+  },
+  // Add more universities here
+];
+
+export const branchContent = [
+  {
+    id: 1,
+    title: "CSE",
+    university: "MAKAUT",
+  },
+  {
+    id: 2,
+    title: "ECE",
+    university: "MAKAUT",
+  },
+  {
+    id: 3,
+    title: "Branch 1",
+    university: "CBSE",
+  },
+  {
+    id: 4,
+    title: "Sahi hai",
+    university: "CBSE",
+  },
+  // Add more branches here
+];
+
+export const subjectContent = [
+  {
+    id: 1,
+    title: "Maths",
+    university: "MAKAUT",
+    branch: "CSE",
+  },
+  {
+    id: 2,
+    title: "English",
+    university: "MAKAUT",
+    branch: "CSE",
+  },
+  {
+    id: 3,
+    title: "Sanskrit",
+    university: "CBSE",
+    branch: "Branch 1",
+  },
+  {
+    id: 4,
+    title: "Physics",
+    university: "Sahi hai",
+    branch: "CBSE ",
+  },
+  // Add more subjects here
+];
+
+export const teamSocials = [
+  {
+    id: 1,
+    name: "Aditi Kumari",
+    imageUrl: aditi,
+    jobTitle: "Software Engineer",
+    description: "Description",
+    social: [
+      { title: "Twitter", iconUrl: twitter, url: "twitter.com/founder1" },
+      { title: "Facebook", iconUrl: facebook, url: "facebook.com/founder1" },
+      { title: "LinkedIn", iconUrl: twitter, url: "linkedin.com/founder1" },
+    ],
+  },
+  {
+    id: 2,
+    name: "Pintu Kumar Ram",
+    imageUrl: pintu,
+    jobTitle: "Frontend Developer",
+    description: "Description 1",
+    social: [
+      { title: "Twitter", iconUrl: twitter, url: "twitter.com/founder1" },
+      { title: "Facebook", iconUrl: facebook, url: "facebook.com/founder1" },
+      { title: "LinkedIn", iconUrl: twitter, url: "linkedin.com/founder1" },
+    ],
+  },
+  {
+    id: 3,
+    name: "Rohit Sinha",
+    imageUrl: rohit,
+    jobTitle: "UX Designer",
+    description: "Description 1",
+    social: [
+      { title: "Twitter", iconUrl: twitter, url: "twitter.com/founder1" },
+      { title: "Facebook", iconUrl: facebook, url: "facebook.com/founder1" },
+      { title: "LinkedIn", iconUrl: twitter, url: "linkedin.com/founder1" },
+    ],
   },
 ];

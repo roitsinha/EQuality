@@ -83,6 +83,7 @@ export default {
       },
     },
   },
+
   plugins: [
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
